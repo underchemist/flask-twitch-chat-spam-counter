@@ -1,0 +1,13 @@
+
+html, body {
+    padding-top: 5rem;
+    background : #50347a;
+}
+
+footer * {
+    color : white;
+}
+
+.spam-table {
+    min-height : 200px;
+}

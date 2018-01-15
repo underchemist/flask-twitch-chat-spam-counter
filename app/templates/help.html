@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div class='jumbotron'>
+    <h1> Supported file formats </h1>
+    <p>
+        Only <a href='http://chatty.github.io/'>Chatty</a> chat logs and space delimited <code>csv</code> files whose columns are <code>timestamp</code>, <code>username</code>, and <code>content</code> are supported. Files should be <code>utf-8</code> encoded to accuracy (the file will be converted to <code>utf-8</code> anyway but you may lose some characters).
+    </p>
+
+    <h1> Downloading chat transcripts from a twitch vod directly </h1>
+    <p>
+        A small python wrapper is used (<a href='https://github.com/TheDrHax/Twitch-Chat-Downloader'>github page</a>) to pull a vod's chat log through an undocumented part of the public <a href='https://dev.twitch.tv/'>twitch api</a>. You will find that especially for long 5+ hour vods this will take a long time. We will ?? with a link or something after you have input the vod url when the processing is done. The reason it can take so long is because of a) max response size of a request will be around ~50 chat lines b) rate limiting queries to not be rude. Certainly a) is the biggest factor.
+    </p>
+</div>
+{% endblock %}
