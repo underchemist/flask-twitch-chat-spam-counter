@@ -3,7 +3,7 @@
 <div class='jumbotron'>
     <h1>Find the most common spam in chat</h1>
     <p class="lead">Upload a plaintext log of a twitch chat vod. See <a href="{{ url_for('help') }}"> Help </a> for supported formats.</p>
-    <form action= "{{ url_for('upload') }}" method=post enctype=multipart/form-data>
+    <form action= "{{ url_for('index') }}" method=post enctype=multipart/form-data>
           <p><input type=file name=file>
              <input type=submit value=Upload>
           </p>
