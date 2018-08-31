@@ -11,3 +11,4 @@ python-dateutil==2.7.3
 pytz==2018.5
 six==1.11.0
 Werkzeug==0.14.1
+git+https://github.com/underchemist/twitch-chat-spam-counter.git

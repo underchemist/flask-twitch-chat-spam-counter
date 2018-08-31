@@ -2,7 +2,7 @@ from app import app
 import os
 from flask import render_template, url_for, request, redirect, flash
 from werkzeug.utils import secure_filename
-from .twitch_chat_word_counter import ChatLog
+from twitchchatspamcounter.tcsc import ChatLog
 import pandas as pd
 from .helper import txt_to_emote
 

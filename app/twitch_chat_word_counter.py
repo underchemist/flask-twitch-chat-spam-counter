@@ -1,1 +1,0 @@
-/mnt/d/git/twitch chat spam counter/twitch_chat_word_counter.py
