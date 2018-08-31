@@ -8,5 +8,16 @@
              <input type=submit value=Upload>
           </p>
         </form>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <div class="alert alert-danger alert-dismissable">
+              <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                {% for message in messages %}
+                  <p>{{ message }}</p>
+                {% endfor %}
+
+            </div>
+        {% endif %}
+    {% endwith %}
 </div>
 {% endblock %} <wbr>

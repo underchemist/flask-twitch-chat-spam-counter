@@ -1,1 +1,1 @@
-/Users/underchemist/git/twitch-chat-spam-counter/twitch_chat_word_counter.py
+/mnt/d/git/twitch chat spam counter/twitch_chat_word_counter.py
