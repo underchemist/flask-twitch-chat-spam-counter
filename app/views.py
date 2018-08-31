@@ -7,7 +7,7 @@ import pandas as pd
 from .helper import txt_to_emote
 
 
-UPLOAD_FOLDER = './app/uploads'
+UPLOAD_FOLDER = '/tmp'
 ALLOWED_EXTENSIONS = set(['txt', 'irc', 'log'])
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['SECRET_KEY'] = '23908479qroaqweilf34'
